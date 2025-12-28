@@ -1,0 +1,53 @@
+* body{
+    margin: 0;
+    background-color: pink;
+}
+
+.heading {
+    background: linear-gradient(to right, rgb(141, 19, 41), rgb(226, 133, 149));
+    height: 50px;
+    text-align: center;
+    padding-top: 12px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    height: 500px;
+    border-radius: 10px;
+    border: 3px solid pink;
+    width: auto;
+    background-color: rgb(248, 191, 201);
+}
+
+
+.title{
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 50px;
+    padding-top: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(197, 77, 99), rgb(226, 133, 149));
+}
+
+.title:hover {
+    background:linear-gradient(to right, rgb(226, 133, 149), rgb(197, 77, 99));
+    color: white;
+}
+
+.btn {
+    background: linear-gradient(to top, rgb(235, 160, 174), rgb(245, 75, 103));
+    height: 40px;
+    border: 1px solid maroon;
+    color: rgb(164, 20, 44);
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background: linear-gradient(to top, rgb(245, 75, 103), rgb(235, 160, 174));
+    color: rgb(122, 17, 17);
+}
